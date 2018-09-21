@@ -6,13 +6,6 @@ What is Supported?
 2) In an AlwaysOn availability group a secondary database cannot be a publisher. Re-publishing is not supported when replication is combined with AlwaysOn Availability Groups.
 
  
-
- 
-
- 
-
- 
-
 Environment
 
 AlwaysOn
@@ -362,3 +355,5 @@ We can go with the default selection "Continue executing after error".
 
 Resume data movemnet on SRV1 as well and AlwaysOn database MyNorthWind will show as "Synchronizing" instead of "Synchronized" as SRV3 is the primary replica now and it was et as an Asynchronous Replica initially.
 After making these changes, Replication will function as usual.
+
+Reference: https://blogs.msdn.microsoft.com/alwaysonpro/2014/01/30/setting-up-replication-on-a-database-that-is-part-of-an-alwayson-availability-group/
